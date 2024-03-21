@@ -1,7 +1,6 @@
-package repositories;
+package com.dorciboss.repositories;
 
-import com.mysql.cj.result.Row;
-import model.Trip;
+import com.dorciboss.model.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -9,9 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 
 @Repository
 public class TripRepository {

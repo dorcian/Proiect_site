@@ -1,11 +1,10 @@
-package service;
+package com.dorciboss.service;
 
-import model.Trip;
+import com.dorciboss.repositories.TripRepository;
+import com.dorciboss.model.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.TripRepository;
 
-import java.util.Date;
 import java.util.List;
 
 @Service

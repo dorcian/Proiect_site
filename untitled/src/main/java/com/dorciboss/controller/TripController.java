@@ -1,12 +1,11 @@
-package controller;
+package com.dorciboss.controller;
 
-import model.Trip;
+import com.dorciboss.model.Trip;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 @Controller
 public class TripController {

@@ -1,4 +1,4 @@
-package model;
+package com.dorciboss.model;
 
 public class User {
 
